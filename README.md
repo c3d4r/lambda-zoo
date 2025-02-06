@@ -8,4 +8,16 @@ configurations and deployment options.
 I'm doing this for practice, but I thought it might be useful to someone 
 to have working examples.
 
+## List of Functions
+### Basic-lambda group
+
+The Basic lambdas are exposed to be accessible as a web endpoint somehow
+and return a _hello world_ message that include their individual name
+when HTTP GET'ed.
+
+  * [basic-lambda-python-cdk](basiclambda/python/basic-lambda-python-cdk): 
+
+    Implemented in Python. Deployed with CDK in Python. Packaged as a simple zip without dependencies.
+    Exposed using a Lambda URL.
+
 

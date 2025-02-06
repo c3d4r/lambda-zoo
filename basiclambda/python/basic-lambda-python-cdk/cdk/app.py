@@ -11,4 +11,14 @@ BasicLambdaPythonStack(app, "BasicLambdaPythonStack",
                        env=cdk.Environment(account=os.getenv('CDK_DEFAULT_ACCOUNT'), region=os.getenv('CDK_DEFAULT_REGION')),
                        )
 
+tags = {
+    "Project": "lambda-zoo",
+    "Item": "basic-lambda-python-cdk",
+    "IAC": "cdk",
+    "Language": "python"
+}
+
+for key, value in tags.items():
+    cdk.Tags.of(app).add(key, value)
+
 app.synth()

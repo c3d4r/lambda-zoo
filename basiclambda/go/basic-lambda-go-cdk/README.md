@@ -1,5 +1,8 @@
-# basic-lambda-cdk
+# basic-lambda-go-cdk
 
-A basic hello world lambda function implemented in Golang.
-Exposed via an AWS Function URL. Deployed using CDK.
+Implemented in Go. Deployed with CDK in Go. Packaged as a simple zip without dependencies (using.
+Exposed using a Lambda URL. CDK provides the default role.
+
+Uses the [@aws-cdk/aws-lambda-go-alpha](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-lambda-go-alpha-readme.html) module for packaging
+
 

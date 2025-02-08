@@ -34,12 +34,17 @@ when HTTP GET'ed.
 
 #### Golang
 
-* [basic-lambda-python-cdk](basiclambda/python/basic-lambda-python-cdk):
+* [basic-lambda-go-cdk](basiclambda/go/basic-lambda-go-cdk):
 
-  Implemented in Python. Deployed with CDK in Python. Packaged as a simple zip without dependencies.
-  Exposed using a Lambda URL.
+  Implemented in Go. Deployed with CDK in Go. Packaged as a simple zip without dependencies (using.
+  Exposed using a Lambda URL. CDK provides teh default role.
 
-* [basic-lambda-python-cdk-explicit-role](basiclambda/python/basic-lambda-python-cdk-explicit-role):
+  Uses the [@aws-cdk/aws-lambda-go-alpha](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-lambda-go-alpha-readme.html) module for packaging
 
-  Implemented in Python. Deployed with CDK in Python. Packaged as a simple zip without dependencies.
+* [basic-lambda-go-cdk-explicit-role](basiclambda/go/basic-lambda-go-cdk-explicit-role):
+
+  Implemented in Go. Deployed with CDK in Go. Packaged as a simple zip without dependencies.
   Exposed using a Lambda URL. Explicitly creates a role.
+
+  Uses the [@aws-cdk/aws-lambda-go-alpha](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-lambda-go-alpha-readme.html) module for packaging
+

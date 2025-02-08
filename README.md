@@ -15,6 +15,8 @@ The Basic lambdas are exposed to be accessible as a web endpoint somehow
 and return a _hello world_ message that include their individual name
 when HTTP GET'ed.
 
+#### Python
+
   * [basic-lambda-python-cdk](basiclambda/python/basic-lambda-python-cdk): 
 
     Implemented in Python. Deployed with CDK in Python. Packaged as a simple zip without dependencies.
@@ -29,3 +31,15 @@ when HTTP GET'ed.
 
     Implemented in Python. Deployed with Pulumi in Python. Packaged as a simple zip without dependencies.
     Exposed using a Lambda URL.
+
+#### Golang
+
+* [basic-lambda-python-cdk](basiclambda/python/basic-lambda-python-cdk):
+
+  Implemented in Python. Deployed with CDK in Python. Packaged as a simple zip without dependencies.
+  Exposed using a Lambda URL.
+
+* [basic-lambda-python-cdk-explicit-role](basiclambda/python/basic-lambda-python-cdk-explicit-role):
+
+  Implemented in Python. Deployed with CDK in Python. Packaged as a simple zip without dependencies.
+  Exposed using a Lambda URL. Explicitly creates a role.

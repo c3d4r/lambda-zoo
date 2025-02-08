@@ -1,7 +1,7 @@
 
-# Welcome to your CDK Python project!
+# Deployment for CDK
 
-This is a blank project for CDK development with Python.
+For details about the project see [../README.md](../README.md)
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
@@ -54,5 +54,3 @@ command.
  * `cdk deploy`      deploy this stack to your default AWS account/region
  * `cdk diff`        compare deployed stack with current state
  * `cdk docs`        open CDK documentation
-
-Enjoy!

@@ -1,7 +1,6 @@
 from aws_cdk import (
-    # Duration,
     Stack,
-    aws_lambda as lambda_, BundlingOptions, CfnOutput,
+    aws_lambda as lambda_, CfnOutput,
 )
 from constructs import Construct
 

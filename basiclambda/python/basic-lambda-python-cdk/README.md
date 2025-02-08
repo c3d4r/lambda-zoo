@@ -59,7 +59,7 @@ FN_URL=`aws cloudformation describe-stacks --stack-name BasicLambdaPythonStack -
 echo $FN_URL
 ```
 
-The run a cURL command like:
+Then run a cURL command like:
 
 ```shell
 curl $FN_URL

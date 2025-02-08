@@ -13,7 +13,7 @@ It should look something like:
 
 ```
 ❯ pulumi up
-Previewing update (dev)                                                                                                                                                                                ─╯
+Previewing update (dev)
 
 View in Browser (Ctrl+O): https://app.pulumi.com/[SOME_ACCOUNT]/basic-lambda-python-pulumi/dev/previews/[SOME_UUID]
 

@@ -20,6 +20,11 @@ when HTTP GET'ed.
     Implemented in Python. Deployed with CDK in Python. Packaged as a simple zip without dependencies.
     Exposed using a Lambda URL.
 
+  * [basic-lambda-python-cdk-explicit-role](basiclambda/python/basic-lambda-python-cdk-explicit-role): 
+
+    Implemented in Python. Deployed with CDK in Python. Packaged as a simple zip without dependencies.
+    Exposed using a Lambda URL. Explicitly creates a role.
+
   * [basic-lambda-python-pulumi](basiclambda/python/basic-lambda-python-pulumi): 
 
     Implemented in Python. Deployed with Pulumi in Python. Packaged as a simple zip without dependencies.

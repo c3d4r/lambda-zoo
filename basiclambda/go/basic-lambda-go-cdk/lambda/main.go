@@ -9,7 +9,7 @@ import (
 func Handler(_ context.Context, r events.APIGatewayProxyRequest) (events.LambdaFunctionURLResponse, error) {
 	return events.LambdaFunctionURLResponse{
 		StatusCode: 200,
-		Body:       "hello world from basic-lambda-golang-cdk",
+		Body:       "hello world from basic-lambda-go-cdk",
 	}, nil
 }
 

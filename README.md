@@ -41,10 +41,3 @@ when HTTP GET'ed.
 
   Uses the [@aws-cdk/aws-lambda-go-alpha](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-lambda-go-alpha-readme.html) module for packaging
 
-* [basic-lambda-go-cdk-explicit-role](basiclambda/go/basic-lambda-go-cdk-explicit-role):
-
-  Implemented in Go. Deployed with CDK in Go. Packaged as a simple zip without dependencies.
-  Exposed using a Lambda URL. Explicitly creates a role.
-
-  Uses the [@aws-cdk/aws-lambda-go-alpha](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-lambda-go-alpha-readme.html) module for packaging
-

@@ -1,8 +1,6 @@
-# Welcome to your CDK Go project!
+# basic-lambda-go-cdk
 
-This is a blank project for CDK development with Go.
-
-The `cdk.json` file tells the CDK toolkit how to execute your app.
+CDK code to deploy # basic-lambda-go-cdk
 
 ## Useful commands
 

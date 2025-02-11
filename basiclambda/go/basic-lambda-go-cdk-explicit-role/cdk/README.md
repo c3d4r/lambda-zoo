@@ -1,6 +1,8 @@
-# basic-lambda-go-cdk
+# basic-lambda-go-cdk-explicit-role
 
 CDK code to deploy # basic-lambda-go-cdk
+
+The `cdk.json` file tells the CDK toolkit how to execute your app.
 
 ## Useful commands
 

@@ -32,6 +32,11 @@ when HTTP GET'ed.
     Implemented in Python. Deployed with Pulumi in Python. Packaged as a simple zip without dependencies.
     Exposed using a Lambda URL.
 
+  * [basic-lambda-python-terraform](basiclambda/python/basic-lambda-python-terraform): 
+
+    Implemented in Python. Deployed with Terraform. Packaged as a simple zip without dependencies.
+    Exposed using a Lambda URL.
+
 #### Go
 
 * [basic-lambda-go-cdk](basiclambda/go/basic-lambda-go-cdk):

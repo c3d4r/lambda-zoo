@@ -48,3 +48,7 @@ when HTTP GET'ed.
 
   Uses the [@aws-cdk/aws-lambda-go-alpha](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-lambda-go-alpha-readme.html) module for packaging
 
+* [basic-lambda-go-pulumi](basiclambda/go/basic-lambda-go-pulumi):
+
+  Implemented in Go. Deployed with Pulumi in Go. Packaged as a simple zip without dependencies.
+  Exposed using a Lambda URL.

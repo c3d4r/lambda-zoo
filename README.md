@@ -52,3 +52,8 @@ when HTTP GET'ed.
 
   Implemented in Go. Deployed with Pulumi in Go. Packaged as a simple zip without dependencies.
   Exposed using a Lambda URL.
+
+* [basic-lambda-go-terraform](basiclambda/go/basic-lambda-go-terraform):
+
+  Implemented in Go. Deployed with Terraform. Packaged as a simple zip without dependencies.
+  Exposed using a Lambda URL.
